@@ -9,11 +9,11 @@
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 
         <Description>Example SpiderHeck mod</Description>
-        <Version>1.0.1</Version>
+        <Version>1.0.2</Version>
     </PropertyGroup>
 
     <PropertyGroup>
-        <GameVersion>1.0.0-r.0</GameVersion>
+        <GameVersion>1.25.0-r.0</GameVersion>
     </PropertyGroup>
 
     <ItemGroup>
@@ -31,8 +31,8 @@
         <PackageReference Include="UnityEngine.Modules" Version="2020.3.13" PrivateAssets="all" />
     </ItemGroup>
 
-    <Target Name="Copy" AfterTargets="Build" Condition="'$(SpiderHeck)' != ''">
-        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SpiderHeck)\BepInEx\plugins\" UseSymboliclinksIfPossible="true" />
+    <Target Name="Copy" AfterTargets="Build" Condition="'$(SPIDERHECK)' != ''">
+        <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(SPIDERHECK)\BepInEx\plugins\" UseSymboliclinksIfPossible="true" />
     </Target>
 
 </Project>
