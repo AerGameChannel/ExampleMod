@@ -1,0 +1,5 @@
+/home/ecorous/Projects/C#/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.AssemblyReference.cache
+/home/ecorous/Projects/C#/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.GeneratedMSBuildEditorConfig.editorconfig
+/home/ecorous/Projects/C#/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.AssemblyInfoInputs.cache
+/home/ecorous/Projects/C#/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.AssemblyInfo.cs
+/home/ecorous/Projects/C#/ExampleMod/ExampleMod/obj/Release/netstandard2.0/ExampleMod.csproj.CoreCompileInputs.cache

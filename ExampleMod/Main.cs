@@ -1,5 +1,6 @@
 ﻿using BepInEx;
 using HarmonyLib;
+using UnityEngine;
 
 namespace ExampleMod
 {
@@ -15,7 +16,7 @@ namespace ExampleMod
         {
             // Creating new harmony instance
             Harmony = new Harmony(ModGUID);
-
+            
             // Applying patches
             Harmony.PatchAll();
             Logger.LogInfo($"{ModName} successfully loaded! Made by {ModAuthor}");
